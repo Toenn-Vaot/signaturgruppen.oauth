@@ -34,4 +34,4 @@ jobs:
         name: Signaturgruppen.OAuth
         path: ./**/*.nupkg
     - name: Publish Nuget package
-      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --no-symbols true
+      run: dotnet nuget push Signaturgruppen.OAuth.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --no-symbols
