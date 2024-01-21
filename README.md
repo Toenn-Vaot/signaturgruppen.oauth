@@ -1,4 +1,4 @@
-# Signaturgruppen.Oauth
+# Signaturgruppen.Oauth ![example workflow](https://github.com/Toenn-Vaot/signaturgruppen.oauth/actions/workflows/build-release.yml/badge.svg)
 Library to help developers implement the authentication on
 their application through Signaturgruppen services suing MitID.
 
