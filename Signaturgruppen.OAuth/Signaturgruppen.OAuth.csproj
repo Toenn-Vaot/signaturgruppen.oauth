@@ -7,7 +7,10 @@
     <Description>OAuth Handler let you use Signaturgruppen broker to authenticate users</Description>
     <Copyright>Toenn Vaot</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/Toenn-Vaot/signaturgruppen.oauth</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Toenn-Vaot/signaturgruppen.oauth</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <PackageTags>Signaturgruppen, Nets, Mitid, Nemid</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>3.0.1</Version>
@@ -41,5 +44,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
