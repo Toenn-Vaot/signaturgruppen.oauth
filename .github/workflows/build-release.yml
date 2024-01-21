@@ -28,7 +28,6 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Create Nuget package
       run: dotnet pack **/*.csproj -c Release /p:Configuration=Release
-      working-directory: ./signaturgruppen.Oauth
     - name: Archive NuGet Package
       uses: actions/upload-artifact@v4.2.0
       with:
