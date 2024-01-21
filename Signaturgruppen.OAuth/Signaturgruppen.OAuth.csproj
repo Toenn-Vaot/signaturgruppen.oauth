@@ -7,7 +7,7 @@
     <Description>OAuth Handler let you use Signaturgruppen broker to authenticate users</Description>
     <Copyright>Toenn Vaot</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/Toenn-Vaot/signaturgruppen.oauth</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Toenn-Vaot/signaturgruppen.oauth</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -46,7 +46,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
+    <None Include="README.md" Pack="true" PackagePath="\">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
