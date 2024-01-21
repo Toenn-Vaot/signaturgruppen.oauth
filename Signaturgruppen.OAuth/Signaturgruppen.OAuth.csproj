@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Company>Toenn Vaot</Company>
+    <Authors>Yoann BLOSSIER</Authors>
+    <Description>OAuth Handler let you use Signaturgruppen broker to authenticate users</Description>
+    <Copyright>Toenn Vaot</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Signaturgruppen, Nets, Mitid, Nemid</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>3.0.0</Version>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+    <PackageReleaseNotes>3.0.0
+    - Migrate to .Net 8.0
+2.0.0
+    - Migrate to .Net 6.0
+1.0.5
+	  - FIX the missing claim mitid.uuid
+1.0.4
+      - FIX the pre-preoduction token endpoint url
+	  - Review the claim mappings
+	  - Get the user-info claims to be able to get CPR as name identifier
+1.0.3
+      - Review the implementation of the login provider
+1.0.2
+      - Change options to OIDC options instead OAuth options to handle better the configuration
+      - Clean the code
+1.0.1
+      - Fix authentication URLs
+1.0.0
+      - Initialization of login provider
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.1" />
+  </ItemGroup>
+</Project>
