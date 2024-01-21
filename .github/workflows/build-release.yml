@@ -32,6 +32,6 @@ jobs:
       uses: actions/upload-artifact@v4.2.0
       with:
         name: Signaturgruppen.OAuth
-        path: ./signaturgruppen.Oauth/Signaturgruppen.OAuth/bin/Release/Signaturgruppen.OAuth.${{ github.event.release.tag_name }}.nupkg
+        path: ./signaturgruppen.Oauth/Signaturgruppen.OAuth/bin/Release/Signaturgruppen.OAuth.*.nupkg
     - name: Publish Nuget package
       run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --no-symbols true
