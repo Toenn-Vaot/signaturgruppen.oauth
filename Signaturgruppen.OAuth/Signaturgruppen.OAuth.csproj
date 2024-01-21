@@ -3,16 +3,19 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Company>Toenn Vaot</Company>
-    <Authors>Yoann BLOSSIER</Authors>
+    <Authors>Toenn Vaot</Authors>
     <Description>OAuth Handler let you use Signaturgruppen broker to authenticate users</Description>
     <Copyright>Toenn Vaot</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Toenn-Vaot/signaturgruppen.oauth</PackageProjectUrl>
     <PackageTags>Signaturgruppen, Nets, Mitid, Nemid</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>3.0.0</Version>
-    <AssemblyVersion>3.0.0.0</AssemblyVersion>
-    <FileVersion>3.0.0.0</FileVersion>
-    <PackageReleaseNotes>3.0.0
+    <Version>3.0.1</Version>
+    <AssemblyVersion>3.0.1.0</AssemblyVersion>
+    <FileVersion>3.0.1.0</FileVersion>
+    <PackageReleaseNotes>3.0.1
+      - Update package information and project URL
+3.0.0
     - Migrate to .Net 8.0
 2.0.0
     - Migrate to .Net 6.0
