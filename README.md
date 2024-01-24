@@ -1,7 +1,5 @@
-# Signaturgruppen.Oauth ![example workflow](https://github.com/Toenn-Vaot/signaturgruppen.oauth/actions/workflows/build-release.yml/badge.svg)
-Library to help developers implement the authentication on
-their application through Signaturgruppen services suing MitID.
-
+![signaturgruppen oauth_repository](https://github.com/Toenn-Vaot/signaturgruppen.oauth/assets/60755917/f22a453c-6254-45b3-babd-2058bfe1da45)
+![example workflow](https://github.com/Toenn-Vaot/signaturgruppen.oauth/actions/workflows/build-release.yml/badge.svg)
 
 ```csharp
 ...
